@@ -1,0 +1,608 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>my project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <!--    <link rel="stylesheet" href="css/all.min.css">-->
+    <!--    <link rel="stylesheet" href="css/nice-select.css" type="text/css">-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+<!--    <link rel="stylesheet" href="css/animate.css">-->
+
+<!--    <link rel="stylesheet" href="css/owl.theme.default.min.css">-->
+    <!--    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/slick.css">
+<!--    <link rel="stylesheet" href="css/owl.carousel.min.css">-->
+    <link rel="stylesheet" href="assets/css/slicknav.min.css" type="text/css">
+
+    <!--    <link rel="stylesheet" href="css/swiper-bundle.min.css">-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+<body>
+<!--header start-->
+<header class="header">
+
+    <a href="#" class="logo"><img src="assets/image/logo.png" height="100" alt="logo"></a>
+
+
+    <nav class="navbar navbar-expand navbar-light bg-light ">
+        <div class="container ">
+            <div class="row">
+
+                <ul class="navbar-nav mx-md-1">
+
+                    <li><a href="index.html" class="nav-link"> Home</a></li>
+                    <!--                        <li><a href="about.html" class="nav-link">About us</a></li>-->
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Shop</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="shopping-categories.html" class="dropdown-item">Shop Category</a></li>
+                            <li><a href="shopping-cart.html" class="dropdown-item">Shopping cart</a></li>
+                            <!--                                <li class="dropdown-item">Shopping </li>-->
+                            <li><a href="check-out.html" class="dropdown-item">Check out</a></li>
+                            <li> <a href="confirmation.html" class="dropdown-item">Confirmation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog-details.html" class="nav-link"> Blog</a></li>
+                    <!--                    <li class="dropdown">-->
+                    <!--                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>-->
+                    <!--                        <ul class="dropdown-menu">-->
+                    <!--                            <li><a href="blog-details.html" class="dropdown-item">Blog </a></li>-->
+                    <!--&lt;!&ndash;                            <li><a href="blog-details.html" class="dropdown-item">Blog Details</a></li>&ndash;&gt;-->
+                    <!--                            &lt;!&ndash;                                <li><a href="shopping-cart.html" class="dropdown-item">Shopping cart</a></li>&ndash;&gt;-->
+                    <!--                            &lt;!&ndash;&lt;!&ndash;                                <li class="dropdown-item">Shopping </li>&ndash;&gt;&ndash;&gt;-->
+                    <!--                            &lt;!&ndash;                                <li><a href="check-out.html" class="dropdown-item">Check out</a></li>&ndash;&gt;-->
+                    <!--                            &lt;!&ndash;                                <li> <a href="confirmation.html" class="dropdown-item">Confirmation</a></li>&ndash;&gt;-->
+                    <!--                        </ul>-->
+                    <!--                    </li>-->
+
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <ul class="dropdown-menu">
+                            <!--                                <li class="dropdown-item"></li>-->
+                            <!--                                <li class="dropdown-item"></li>-->
+                            <!--                                <li class="dropdown-item"></li>-->
+                            <li><a href="about.html" class="dropdown-item">About Us </a></li>
+                            <li><a href="tracking.html" class="dropdown-item">Tracking </a></li>
+                            <li><a href="login.html" class="dropdown-item">Login</a></li>
+                            <li><a href="register.html" class="dropdown-item">Register</a></li>
+                            <li><a href="faq.html" class="dropdown-item">FAQ</a></li>
+
+                        </ul>
+                    </li>
+                    <!--                        <a href="" class="nav-link">Blog</a>-->
+                    <a href="contact.html" class="nav-link">Contacts</a>
+
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fa-regular fa-heart" id="heart-btn"></div>
+
+
+        <div class="fas fa-shopping-cart" id="cart-btn"><span class="shop__circle">3</span></div>
+        <div class="fas fa-user" id="login-btn"></div>
+        <!--        <div class="fa-solid fa-headphones" id="headphones-btn"></div>-->
+        <!--        <div class="fa-solid fa-globe" id="globe-btn"></div>-->
+
+
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="Search for products,brand and more">
+        <!--        <button class="btn btn-outline-danger" type="submit" >Search</button>-->
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="assets/image/img (11).jpg" height="50px" width="70px"   alt="">
+            <div class="content">
+                <h3>sun glass</h3>
+                <span class="price">$5.66/</span>
+                <span class="quantity">qty:1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="assets/image/tomato.jpg" height="50px" width="70px" alt="">
+            <div class="content">
+                <h3>beg</h3>
+                <span class="price">$15.66/</span>
+                <span class="quantity">qty:1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="assets/image/ring (3).jpg" height="70px" width="70px" alt="">
+            <div class="content">
+                <h3>Jewellery</h3>
+                <span class="price">$25.66/</span>
+                <span class="quantity">qty:1</span>
+            </div>
+        </div>
+
+
+        <div class="total">total: $46.98/-</div>
+        <a href="#" class="btn">check out</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>Login Now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password<a href="#">Click here</a></p>
+        <p>don't have an account<a href="#">create new account</a></p>
+
+        <input type="submit" value="login now" class="btn">
+
+    </form>
+
+</header>
+
+<!--header end-->
+<!-----breadcrumb start------->
+
+<section class="breadcrumb-option">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>About us</h4>
+                    <div class="breadcrumb__links">
+                        <a href="index.html">Home</a>
+<!--                        <a href="shop.html">Shop</a>-->
+                        <span>About us</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-----breadcrumb end------->
+
+
+<!--=== ABOUT US START ===-->
+
+<section id="about" data-aos="fade-down">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 first_col">
+                <div class="about_img">
+                    <img src="assets/media/picab.jpg" alt="pic" class="img-fluid w-100 about_img">
+                </div>
+                <!-- <div class="award_img">
+                    <button><img src="media/award.png" alt="award"></button>
+                </div> -->
+            </div>
+            <div class="col-lg-6 sec_col">
+                <div class="heading">
+                    <h2>About <span>Our Stories</span></h2>
+                    <h3>* Know About Us</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, vero?</p>
+                </div>
+
+                <ul>
+                    <li><i class="fa-solid fa-circle-arrow-right"></i> Who We Are ?</li>
+                    <li><i class="fa-solid fa-circle-arrow-right"></i>What We Do ?</li>
+                    <li><i class="fa-solid fa-circle-arrow-right"></i> Why Choose Us?</li>
+                </ul>
+
+                <button class="custom-btn btn-7" data-aos="zoom-in"><span>Know More</span></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--=== ABOUT US END ===-->
+
+<!--=== Our Success Start ===-->
+
+<section id="our_success" data-aos="fade-right">
+    <div class="container">
+        <div class="heading">
+            <h2>OUR <span>PROGRESS</span></h2>
+            <h3>* Success Rate</h3>
+        </div>
+
+        <!-- counter section -->
+        <div class="row counter_row">
+            <div class="col-lg-6 counter_left">
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Debitis deserunt dignissimos ea ex facere fugiat harum in inventore maxime quae.</p>
+
+                <button class="cssbuttons-io-button">
+                    Join US
+                    <div class="icon">
+                        <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0h24v24H0z" fill="none"></path>
+                            <path
+                                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                    fill="currentColor"></path>
+                        </svg>
+                    </div>
+                </button>
+                <div class="row counter_items">
+                    <div class="col-lg-2">
+                        <span class="elegantshadow"><span class="counter">120</span>+</span>
+                        <p class="counter_text">Our Clients</p>
+                    </div>
+                    <div class="col-lg-2">
+                        <span class="elegantshadow"><span class="counter">15</span>k+</span>
+                        <p class="counter_text">Happy Customers</p>
+                    </div>
+                    <div class="col-lg-2">
+                        <span class="elegantshadow"><span class="counter">75</span>+</span>
+                        <p class="counter_text">Total Categories</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <button class="counter_img" data-aos="fade-down-left"><img src="assets/media/succ.jpg" alt="success_body"></button>
+            </div>
+        </div>
+<!--        <div class="row">-->
+<!--            <div class="col-lg-2">-->
+<!--                <div class="small_video">-->
+
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+    </div>
+</section>
+
+
+<!--=== Our Success END ===-->
+<!--team member part start-->
+<section class="team spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <span>Our Team</span>
+                    <h2>Meet Our Team</h2>
+                </div>
+            </div>
+        </div>
+        <div class="team__row">
+            <div class="team__col col-lg-3 col-md-6 col-sm-6">
+                <div class="team__item">
+                    <div class="team__img">
+                    <img src="assets/img/about/team-1.jpg"  height="300" width="260" alt="image">
+                    <div class="team__overly">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                        </ul>
+                    </div>
+                    </div>
+                    <h4>John Smith</h4>
+                    <span>Fashion Design</span>
+                </div>
+            </div>
+            <div class="team__col col-lg-3 col-md-6 col-sm-6">
+                <div class="team__item">
+                    <div class="team__img">
+                    <img src="assets/img/about/team-2.jpg"  height="300" width="260" alt="image">
+                    <div class="team__overly">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <h4>Christine Wise</h4>
+                    <span>C.E.O</span>
+                </div>
+            </div>
+            <div class="team__col col-lg-3 col-md-6 col-sm-6">
+                <div class="team__item">
+                    <div class="team__img">
+                    <img src="assets/img/about/team-3.jpg"  height="300" width="260" alt="image">
+                    <div class="team__overly">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <h4>Sean Robbins</h4>
+                    <span>Manager</span>
+                </div>
+            </div>
+            <div class="team__col col-lg-3 col-md-6 col-sm-6">
+                <div class="team__item">
+                    <div class="team__img">
+                    <img src="assets/img/about/team-4.jpg" height="300" width="260" alt="image">
+
+                    <div class="team__overly">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <h4>Lucy Myers</h4>
+                    <span>Delivery</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--team member part end-->
+
+
+
+
+<!--testimonial part start-->
+<section class="customer spad customer-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <span>Testimonial</span>
+                    <h2>What Our Customer Say's</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6 p-0">
+                <div class="single-cat mb-30">
+                    <div class="cat-cap">
+                        <div class="rating">
+                            <ul>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                        <p>"Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter labore et dolore magna.</p>
+                    </div>
+                    <div class="cat-img">
+                        <img src="assets/image/person/p1%20(1).jpg" alt>
+                        <p>Wilma Mumduya</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 p-0">
+                <div class="single-cat mb-30">
+                    <div class="cat-cap">
+                        <div class="rating">
+                            <ul>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                        <p>"Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter labore et dolore magna.</p>
+                    </div>
+                    <div class="cat-img">
+                        <img src="assets/image/person/p1%20(2).jpg"alt>
+                        <p>Wilma Mumduya</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 p-0">
+                <div class="single-cat mb-30">
+                    <div class="cat-cap">
+                        <div class="rating">
+                            <ul>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                        </div>
+                        <p>"Consectetur adipiscing elit, sed do eiusmod tempor dunt ulter labore et dolore magna.</p>
+                    </div>
+                    <div class="cat-img">
+                        <img src="assets/image/person/p1%20(3).jpg" alt>
+                        <p>Wilma Mumduya</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--testimonial part end-->
+
+<!--clients part start-->
+<section class="clients spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title">
+                    <span>Partner</span>
+                    <h2>Happy Clients</h2>
+                </div>
+            </div>
+        </div>
+        <div class="client_row">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                <a href="#" class="client__item"><img src="assets/img/clients/client-1.png" alt></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                <a href="#" class="client__item"><img src="assets/img/clients/client-2.png" alt></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                <a href="#" class="client__item"><img src="assets/img/clients/client-3.png" alt></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                <a href="#" class="client__item"><img src="assets/img/clients/client-4.png" alt></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                <a href="#" class="client__item"><img src="assets/img/clients/client-5.png" alt></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                <a href="#" class="client__item"><img src="assets/img/clients/client-6.png" alt></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                <a href="#" class="client__item"><img src="assets/img/clients/client-7.png" alt></a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                <a href="#" class="client__item"><img src="assets/img/clients/client-8.png" alt></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!--footer start-->
+<footer id="footer">
+    <div class="container">
+        <div class="footer_row">
+            <div class="logo_col">
+                <div class="footer_logo">
+                    <img src="assets/image/logo.png" height="100" alt="footer_logo">
+                </div>
+                <p>The customer is at the heart of our unique business model, which includes design.</p>
+
+                <div class="icon">
+                    <ul>
+
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="contact_col">
+                <h2>Contact Us</h2>
+                <div class="contact_item">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <ul>
+                        <li><a href="tel: +123 4567 8910"> +123 4567 8910</a></li>
+                        <li><a href="tel: +334 9876 2354"> +698 9876 2354</a></li>
+                    </ul>
+                </div>
+                <div class="contact_item">
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                    <ul>
+                        <li><a href="mailto:fulkonnainfo@gmail.com"> fulkonnafo@gmail.com</a></li>
+                        <li><a href="mailto:informationfulkonna@gmail.com"> informationfulkonnag@mail.com</a></li>
+                    </ul>
+                </div>
+                <div class="contact_item">
+                    <div class="icon"><i class="fa-solid fa-earth-americas"></i></div>
+                    <ul>
+                        <li><a href="www.fulkonnainformation.com"> www.fulkonnainformation.com</a></li>
+                        <li><a href="www.informationfulkonna.com"> www.informationfulkonna.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu_col ">
+                <h2>Quick Links</h2>
+                <div class="footer_menu ">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="shopping-categories.html">Shop</a></li>
+
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="contact.html">Contact </a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="Photos_col">
+                <h2>Gallery</h2>
+                <div class="gallery">
+                    <div class="images_col">
+                        <div class="img">
+                            <img src="assets/image/6.jpg" height="70px" width="95px" alt="gallery=1">
+                        </div>
+                        <div class="img">
+                            <img src="assets/image/4.jpg" height="70px" width="95px" alt="gallery=2">
+                        </div>
+                        <div class="img">
+                            <img src="assets/image/product/7.jpg" height="70px" width="95px" alt="gallery=1">
+                        </div>
+                    </div>
+                    <div class="images_col2">
+                        <div class="img">
+                            <img src="assets/image/6%20(4).jpg" height="70px" width="95px" alt="image">
+                        </div>
+                        <div class="img">
+                            <img src="assets/image/5.jpg" height="70px" width="95px" alt="gallery=1">
+                        </div>
+                        <div class="img">
+                            <img src="assets/image/product/6%20(2).jpg" height="70px" width="95px" alt="gallery=1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <p>Copyright <span><i class="fa-regular fa-copyright"></i></span> 2017. All rights reserved by <a href="#">FULKONNA</a></p>
+        </div>
+    </div>
+</footer>
+<!--footer end-->
+<script src="assets/js/jquery-2.2.4.min.js"></script>
+<!--<script src="js/owl.carousel.min.js"></script>-->
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+
+<script src="assets/js/bootstrap.bundle.js"></script>
+<script src="assets/js/jquery.counterup.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script>
+    $('.counter').counterUp({
+        delay: 10,
+        time: 3000
+    });
+
+    //? OUR SUCCESS JS //
+
+
+    AOS.init();
+
+    //? AOS
+</script>
+</body>
+</html>

@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>my project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <!--    <link rel="stylesheet" href="css/all.min.css">-->
+    <!--    <link rel="stylesheet" href="css/nice-select.css" type="text/css">-->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <!--    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slicknav.min.css" type="text/css">
+
+    <!--    <link rel="stylesheet" href="css/swiper-bundle.min.css">-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+<body>
+
+
+<!--header start-->
+<header class="header">
+
+    <a href="#" class="logo"><img src="assets/image/logo.png" height="100" alt="logo"></a>
+
+
+    <nav class="navbar navbar-expand navbar-light bg-light ">
+        <div class="container ">
+            <div class="row">
+
+                <ul class="navbar-nav mx-md-1">
+
+                    <li><a href="index.html" class="nav-link"> Home</a></li>
+                    <!--                        <li><a href="about.html" class="nav-link">About us</a></li>-->
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Shop</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="shopping-categories.html" class="dropdown-item">Shop Category</a></li>
+                            <li><a href="shopping-cart.html" class="dropdown-item">Shopping cart</a></li>
+                            <!--                                <li class="dropdown-item">Shopping </li>-->
+                            <li><a href="check-out.html" class="dropdown-item">Check out</a></li>
+                            <li> <a href="confirmation.html" class="dropdown-item">Confirmation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog-details.html" class="nav-link"> Blog</a></li>
+                    <!--                    <li class="dropdown">-->
+                    <!--                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog</a>-->
+                    <!--                        <ul class="dropdown-menu">-->
+                    <!--                            <li><a href="blog-details.html" class="dropdown-item">Blog </a></li>-->
+                    <!--&lt;!&ndash;                            <li><a href="blog-details.html" class="dropdown-item">Blog Details</a></li>&ndash;&gt;-->
+                    <!--                            &lt;!&ndash;                                <li><a href="shopping-cart.html" class="dropdown-item">Shopping cart</a></li>&ndash;&gt;-->
+                    <!--                            &lt;!&ndash;&lt;!&ndash;                                <li class="dropdown-item">Shopping </li>&ndash;&gt;&ndash;&gt;-->
+                    <!--                            &lt;!&ndash;                                <li><a href="check-out.html" class="dropdown-item">Check out</a></li>&ndash;&gt;-->
+                    <!--                            &lt;!&ndash;                                <li> <a href="confirmation.html" class="dropdown-item">Confirmation</a></li>&ndash;&gt;-->
+                    <!--                        </ul>-->
+                    <!--                    </li>-->
+
+                    <li class="dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <ul class="dropdown-menu">
+                            <!--                                <li class="dropdown-item"></li>-->
+                            <!--                                <li class="dropdown-item"></li>-->
+                            <!--                                <li class="dropdown-item"></li>-->
+                            <li><a href="about.html" class="dropdown-item">About Us </a></li>
+                            <li><a href="tracking.html" class="dropdown-item">Tracking </a></li>
+                            <li><a href="login.html" class="dropdown-item">Login</a></li>
+                            <li><a href="register.html" class="dropdown-item">Register</a></li>
+                            <li><a href="faq.html" class="dropdown-item">FAQ</a></li>
+
+                        </ul>
+                    </li>
+                    <!--                        <a href="" class="nav-link">Blog</a>-->
+                    <a href="contact.html" class="nav-link">Contacts</a>
+
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fa-regular fa-heart" id="heart-btn"></div>
+
+
+        <div class="fas fa-shopping-cart" id="cart-btn"><span class="shop__circle">3</span></div>
+        <div class="fas fa-user" id="login-btn"></div>
+        <!--        <div class="fa-solid fa-headphones" id="headphones-btn"></div>-->
+        <!--        <div class="fa-solid fa-globe" id="globe-btn"></div>-->
+
+
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="Search for products,brand and more">
+        <!--        <button class="btn btn-outline-danger" type="submit" >Search</button>-->
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="assets/image/img (11).jpg" height="50px" width="70px"   alt="">
+            <div class="content">
+                <h3>sun glass</h3>
+                <span class="price">$5.66/</span>
+                <span class="quantity">qty:1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="assets/image/tomato.jpg" height="50px" width="70px" alt="">
+            <div class="content">
+                <h3>beg</h3>
+                <span class="price">$15.66/</span>
+                <span class="quantity">qty:1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="assets/image/ring (3).jpg" height="70px" width="70px" alt="">
+            <div class="content">
+                <h3>Jewellery</h3>
+                <span class="price">$25.66/</span>
+                <span class="quantity">qty:1</span>
+            </div>
+        </div>
+
+
+        <div class="total">total: $46.98/-</div>
+        <a href="#" class="btn">check out</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>Login Now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password<a href="#">Click here</a></p>
+        <p>don't have an account<a href="#">create new account</a></p>
+
+        <input type="submit" value="login now" class="btn">
+
+    </form>
+
+</header>
+
+<!--header end-->
+<!--breadcrumb start-->
+<section class="breadcrumb-option">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>Order Tracking</h4>
+                    <div class="breadcrumb__links">
+                        <a href="index.html">Home</a>
+                        <!--                        <a href="shop.html">Shop</a>-->
+                        <span>Order Tracking</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--breadcrumb end-->
+
+<section class="tracking_box_area section-margin--small">
+    <div class="container">
+        <div class="tracking_box_inner">
+            <p>To track your order please enter your Order ID in the box below and press the "Track" button. This
+                was given to you on your receipt and in the confirmation email you should have received.</p>
+            <form class="row tracking_form" action="#" method="post" novalidate="novalidate">
+                <div class="col-md-12 form-group">
+                    <input type="text" class="form-control" id="order" name="order" placeholder="Order ID" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Order ID'">
+                </div>
+                <div class="col-md-12 form-group">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Billing Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Billing Email Address'">
+                </div>
+                <div class="col-md-12 form-group">
+                    <button type="submit" value="submit" class="button button-tracking">Track Order</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+<!--footer start-->
+<footer id="footer">
+    <div class="container">
+        <div class="footer_row">
+            <div class="logo_col">
+                <div class="footer_logo">
+                    <img src="assets/image/logo.png" height="100" alt="footer_logo">
+                </div>
+                <p>The customer is at the heart of our unique business model, which includes design.</p>
+
+                <div class="icon">
+                    <ul>
+
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="contact_col">
+                <h2>Contact Us</h2>
+                <div class="contact_item">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <ul>
+                        <li><a href="tel: +123 4567 8910"> +123 4567 8910</a></li>
+                        <li><a href="tel: +334 9876 2354"> +698 9876 2354</a></li>
+                    </ul>
+                </div>
+                <div class="contact_item">
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                    <ul>
+                        <li><a href="mailto:fulkonnainfo@gmail.com"> fulkonnafo@gmail.com</a></li>
+                        <li><a href="mailto:informationfulkonna@gmail.com"> informationfulkonnag@mail.com</a></li>
+                    </ul>
+                </div>
+                <div class="contact_item">
+                    <div class="icon"><i class="fa-solid fa-earth-americas"></i></div>
+                    <ul>
+                        <li><a href="www.fulkonnainformation.com"> www.fulkonnainformation.com</a></li>
+                        <li><a href="www.informationfulkonna.com"> www.informationfulkonna.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu_col ">
+                <h2>Quick Links</h2>
+                <div class="footer_menu ">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="shopping-categories.html">Shop</a></li>
+
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="contact.html">Contact </a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="Photos_col">
+                <h2>Gallery</h2>
+                <div class="gallery">
+                    <div class="images_col">
+                        <div class="img">
+                            <img src="assets/image/6.jpg" height="70px" width="95px" alt="gallery=1">
+                        </div>
+                        <div class="img">
+                            <img src="assets/image/4.jpg" height="70px" width="95px" alt="gallery=2">
+                        </div>
+                        <div class="img">
+                            <img src="assets/image/product/7.jpg" height="70px" width="95px" alt="gallery=1">
+                        </div>
+                    </div>
+                    <div class="images_col2">
+                        <div class="img">
+                            <img src="assets/image/6%20(4).jpg" height="70px" width="95px" alt="image">
+                        </div>
+                        <div class="img">
+                            <img src="assets/image/5.jpg" height="70px" width="95px" alt="gallery=1">
+                        </div>
+                        <div class="img">
+                            <img src="assets/image/product/6%20(2).jpg" height="70px" width="95px" alt="gallery=1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <p>Copyright <span><i class="fa-regular fa-copyright"></i></span> 2017. All rights reserved by <a href="#">FULKONNA</a></p>
+        </div>
+    </div>
+</footer>
+<!--footer end-->
+
+<script src="assets/js/script.js"></script>
+<script src="assets/js/jquery-1.12.4.min.js"></script>
+
+<script src="assets/js/mixitup.min.js"></script>
+<script src="assets/js/jquery.countdown.min.js"></script>
+<script src="assets/js/jquery.slicknav.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/bootstrap.bundle.js"></script>
+<!--<script src="js/jquery.nicescroll.min.js"></script>-->
+<!--<script src="js/jquery.magnific-popup.min.js"></script>-->
+<!--<script src="js/swiper-bundle.min.js"></script>-->
+<!--<script src="js/jquery.nice-select.min.js"></script>-->
+<!--<script src="js/script.js"></script>-->
+<!--<script src="js/main.js"></script>-->

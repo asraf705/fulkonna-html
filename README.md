@@ -29,7 +29,7 @@
 bash
 
 git clone https://github.com/asraf705/fulkonna-html.git
-cd fulkonna
+
 
 2. Open in Browser
 Simply open the index.html file in your browser.

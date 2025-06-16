@@ -41,5 +41,5 @@ start index.html
 ---
 
 👨‍💻 Author : 
-Mirza Dorin Akhter Kabbo
+Mirza Dorin Akter Kabbo
 

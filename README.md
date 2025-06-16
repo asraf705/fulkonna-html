@@ -40,6 +40,6 @@ start index.html
 
 ---
 
-##👨‍💻 Author
+👨‍💻 Author : 
 Mirza Dorin Akhter Kabbo
 

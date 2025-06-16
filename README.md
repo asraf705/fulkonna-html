@@ -37,8 +37,9 @@ Simply open the index.html file in your browser.
 bash
 
 start index.html
-Or drag-and-drop the file into your browser window.
 
-👨‍💻 Author
+---
+
+##👨‍💻 Author
 Mirza Dorin Akhter Kabbo
 
